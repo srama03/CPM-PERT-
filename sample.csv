@@ -1,0 +1,7 @@
+Activity,Duration,Dependencies
+Plan Event,2,""
+Book Venue,3,"Plan Event"
+Arrange Catering,4,"Plan Event"
+Send Invitations,1,"Book Venue"
+Set Up Venue,2,"Book Venue, Arrange Catering"
+Host Event,1,"Set Up Venue, Send Invitations"

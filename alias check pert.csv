@@ -1,0 +1,7 @@
+Activity,Time,Predecessors,O,M,P
+Plan Event,2,,
+Book Venue,3,Plan Event,2,3,4
+Arrange Catering,4,Plan Event,3,4,5
+Send Invitations,1,Book Venue,1,1,2
+Set Up Venue,2,"Book Venue, Arrange Catering",1,2,3
+Host Event,1,"Set Up Venue, Send Invitations",1,1,2

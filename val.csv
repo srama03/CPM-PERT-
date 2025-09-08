@@ -1,0 +1,7 @@
+tsk,Durtion,Depedencies
+Plan Event,2,
+Book Venue,-3,"Plan Event"
+Arrange Catering,abc,"Plan Event"
+Send Invitations,1,"Book Veune"
+Set Up Venue,2,"Book Venue, Arrange Catering"
+Host Event,1,"Set Up Venue, Send Invitations"

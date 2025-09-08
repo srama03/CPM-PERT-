@@ -1,0 +1,9 @@
+[
+    {"Task": "Plan Event", "Duration": 2, "Dependencies": ""},
+    {"Task": "Book Venue", "Duration": 3, "Dependencies": "Plan Event"},
+    {"Task": "Arrange Catering", "Duration": 4, "Dependencies": "Plan Event"},
+    {"Task": "Send Invitations", "Duration": 1, "Dependencies": "Book Venue"},
+    {"Task": "Set Up Venue", "Duration": 2, "Dependencies": "Book Venue, Arrange Catering"},
+    {"Task": "Host Event", "Duration": 1, "Dependencies": "Set Up Venue, Send Invitations"}
+  ]
+  
