@@ -82,3 +82,33 @@ Run the Streamlit app:
 streamlit run app.py
 ```
 Open the local URL shown in the terminal to interact with the app.
+
+### Input Format
+
+The app expects task-level project data including:
+
+- Task ID / name
+
+- Predecessor relationships
+
+- Duration (single value for CPM, or optimistic / most likely / pessimistic for PERT)
+
+Sample input files are provided in the repository. Please Note: the visualisations (esp. the network graph) work best for projects with <= 10 tasks.
+
+
+## Current Status
+
+This project is actively being cleaned and extended.
+Upcoming improvements may include:
+
+Improved visualizations for dependency graphs
+
+More robust input validation
+
+Separation of analysis logic from UI for easier testing
+
+Performance optimizations for larger task graphs
+
+## Notes
+
+This project was built as part of an applied exploration of project scheduling and operations research concepts, with an emphasis on clarity, correctness, and usability rather than production-scale deployment.
