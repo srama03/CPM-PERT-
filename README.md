@@ -45,17 +45,31 @@ The goal of this app is to make CPM/PERT analysis more accessible and interactiv
 ---
 
 ## Project Structure
-
-CPM-PERT/
+```
+CPM-PERT-/
 │
-├── app.py # Streamlit application entry point
-├── cpm.py # CPM / PERT computation logic
-├── graph_helpers.py # Graph utilities for dependency handling
-├── input_parser.py # Input file parsing and validation
+├── app/
+│   ├── app.py              # Streamlit application entry point
+│   └── __init__.py
+│
+├── core/
+│   ├── cpm.py              # CPM / PERT computation logic
+│   ├── graph_helpers.py    # Graph construction & traversal utilities
+│   ├── input_parser.py     # Input file parsing and validation
+│   └── __init__.py
+│
+├── data/
+│   ├── sample.csv
+│   ├── sample_pert.csv
+│   ├── sample.json
+│   ├── sample.xlsx
+│   ├── val.csv
+│   └── alias_check_pert.csv
+│
 ├── requirements.txt
 ├── README.md
-└── sample_data/ # Example input files
-
+└── .gitignore
+```
 
 ---
 
