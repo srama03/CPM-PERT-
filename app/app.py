@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 import difflib      # for fuzzy matching
 from io import BytesIO  # to use aas buffer for export options
 # functions
-from utils.input_parser import parse_df, parse_pert_df, alias_map
-from utils.graph_helpers import build_graph
-from utils.cpm import forward_pass, backward_pass, calculate_slack
+from core.input_parser import parse_df, parse_pert_df, alias_map
+from core.graph_helpers import build_graph
+from core.cpm import forward_pass, backward_pass, calculate_slack
 
 def load_file(uploaded_file):
     """

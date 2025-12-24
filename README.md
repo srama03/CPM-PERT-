@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ```
 Run the Streamlit app:
 ```
-streamlit run app.py
+python -m streamlit run app/app.py
 ```
 Open the local URL shown in the terminal to interact with the app.
 
