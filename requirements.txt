@@ -3,5 +3,5 @@ streamlit
 numpy
 scipy
 networkx
-matplotlib==3.10.0
+matplotlib
 openpyxl
